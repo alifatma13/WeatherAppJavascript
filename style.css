@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main, form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    height: 85vh;
+    background-color: rgb(241, 241, 193);
+
+}
+
+form{
+    height: 15vh;
+    background-color: rgb(135, 106, 162);
+}
+
+input{
+    border: none;
+    width: 50vw;
+    height: 2.5rem;
+    padding: 0.5rem;
+    outline: none;
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: white;
+    
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+
+  button{
+    border: none;
+    height: 3rem;
+    width: 8rem;
+    background-color:rgb(135, 222, 180);
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+main > div{
+    margin: 0.5rem;
+    font-weight: 600;
+}
